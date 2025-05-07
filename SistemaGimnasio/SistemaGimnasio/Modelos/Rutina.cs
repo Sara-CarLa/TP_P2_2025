@@ -15,6 +15,7 @@ namespace SistemaGimnasio.Modelos
         {
             Nombre = nombre;
             Duracion = duracion;
+            ejercicios = new List<Ejercicio>();
         }
 
         //Métodos
@@ -32,11 +33,6 @@ namespace SistemaGimnasio.Modelos
         {
             ejercicios.Remove(ejercicio);
         }
-         
-            
-            
-            
-
 
 
     }
