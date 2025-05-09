@@ -76,3 +76,8 @@ foreach(var e in usuario.RutinaAsignada.ObtenerEjercicios() )
 
 Console.WriteLine($"Entrenador asignado: {entrenador.Nombre} con especialidad: {entrenador.Especialidad}");
 
+//ACT. 3 ASIGANDOR DE RUTINAS
+
+//PRINCIPIO SOLID, EXCEPTO EL EVALUADOR DE RUTINAS POR LOS DOS TEST QUE SE HICIERON EN LA CLASE
+
+//sUBIR REPORTE Y EL REPOSITORIO
